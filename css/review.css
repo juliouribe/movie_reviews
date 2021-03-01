@@ -17,14 +17,19 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 25px;
+    padding: 5px;
+}
+
+figcaption {
+    display: flex;
+    max-width: 55%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
 }
 
 .review_text {
-    /* max-width: 75%; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     margin-left: 15%;
     margin-right: 15%;
 }

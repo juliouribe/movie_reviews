@@ -23,7 +23,7 @@ a {
     min-width: 500px;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "hd" "sd" "main" "ft";
+    grid-template-areas: "hd" "sd" "main" "social" "ft";
 }
 
 .box {
@@ -69,10 +69,16 @@ a {
     margin: auto;
 }
 
+.social {
+    grid-area: social;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     grid-area: ft;
     display: flex;
-    justify-content: center;
     justify-content: center;
     align-items: center;
 }
