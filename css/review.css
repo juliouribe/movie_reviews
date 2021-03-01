@@ -1,15 +1,23 @@
-@import 'style.css';
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .checked {
     color: gold;
 }
 
-img {
+.main_image {
     display: flex;
     max-width: 55%;
     justify-content: center;
     align-items: center;
     margin: auto;
+    border-radius: 25px;
+}
+
+.content_image {
+    display: flex;
+    max-width: 55%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 25px;
 }
 
 .review_text {
@@ -18,8 +26,4 @@ img {
     justify-content: center;
     align-items: center;
     margin: auto;
-}
-
-.content_image {
-    padding: 25px;
 }
