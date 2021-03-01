@@ -21,9 +21,10 @@
 }
 
 .review_text {
-    max-width: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    /* max-width: 75%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 15%;
+    margin-right: 15%;
 }
