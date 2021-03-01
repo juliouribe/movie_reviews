@@ -1,0 +1,25 @@
+@import 'style.css';
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.checked {
+    color: gold;
+}
+
+img {
+    display: flex;
+    max-width: 55%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.review_text {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content_image {
+    padding: 25px;
+}
